@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>O museu abandonado</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.png" alt="">
+            <p>Você é um explorador viajando pela Inglaterra, você acaba de encontrar um museu abandonado e decide entrar. Explorar o andar principal ou subsolo ?</p>
+            <button class="btn-proximo" data-proximo="1">Andar principal</button>
+            <button class="btn-proximo" data-proximo="2">Subsolo</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>No andar principal é encontrado pistas antigas, mas você escuta um barulho estranho. Seguir o som ou ignorar?</p>
+            <button class="btn-proximo" data-proximo="3">Seguir o som</button>
+            <p>Você seguiu o som e entrou em uma sala secreta. É encontrado uma caixa misteriosa e você decidiu abri-lá. Foi ativada uma antiga armadilha mas você se salvou dela</p>
+            <P>Você encontra um artefato historico muito valioso que estava perdido. Avisar as autoridade ou vender para um colecionador? </p>
+            <button class="btn-proximo" data-proximo="4">Vender</button>
+            <p>Você tenta levar para vender mas o museu desmoronou e você nunca mais foi visto. FIM</p>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>No subsolo é encontrado objetos misteriosos, mas você escuta um barulho estranho. Seguir o som ou ignorar?</p>
+            <button class="btn-proximo" data-proximo="6">Ignorar</button>
+            <P>Você ignorou o som, continuou explorando e encontrou documentos históricos. É encontrado uma caixa misteriosa e você decidiu nâo abri-lá. Entâo seguiu reto e econtinuou explorando</P>
+            <P>Você encontra um artefato historico muito valioso que estava perdido. Avisar as autoridades ou vender para um colecionador?</P>
+            <button class="btn-proximo" data-proximo="8">Avisar as autoridades</button>
+            <p>Você avisou as autoridades entâo ajudou muito a população. Você è reconhecido como heroi da cidade. FIM</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+
